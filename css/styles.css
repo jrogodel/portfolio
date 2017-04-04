@@ -1,0 +1,164 @@
+
+/*Variables*/
+:root {
+
+  /*Colors*/
+
+  --white: #FBFEF9;
+  --accent-yellow: #FCAB10;
+  --accent-green: #00FF87;
+  --alert: #F8333C;
+  --primary-blue: #1192D8;
+  --black: #08080A;
+  --light-gray: #46464F;
+  --copy: #08080A;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--white);
+}
+
+h1, h2, h3 {
+  color: var(--black);
+}
+
+h2 {
+  font-size: 1.9em;
+}
+
+p {
+  color: var(--copy);
+}
+
+.container {
+  margin: 0 auto;
+  width: 85vw;
+  max-width: 960px;
+}
+
+.flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 85vw;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 1.25em 0;
+  margin: 0;
+  align-items: baseline;
+}
+
+.brand {
+  text-transform: uppercase;
+  padding-right: 10px;
+  font-size: 1em;
+  color: var(--black); 
+}
+
+ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 0.9em;
+  color: var(--copy);
+}
+
+
+hr {
+  width: 25%;
+  border: 1px solid var(--light-gray);
+  padding: 0;
+  margin: 3em 0 3em 0;
+}
+
+/*HEADER*/
+
+.header {
+  height: 60vh;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;   
+}
+
+.heading {
+  font-size: 3.3em;
+  margin: 0;
+  padding: 0;
+}
+
+.header p {
+  text-align: center;
+  width: 55vw;
+  font-size: 1em;
+
+}
+ 
+.btn-contact {
+  align-self: flex-start;
+  margin: 1.7em auto;
+  transition: .1s ease-in-out;
+}
+
+.btn-contact:hover {
+  background-color: #0E79B2;
+}
+
+.btn {
+  background-color: var(--primary-blue);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+  padding: 1em 1.75em;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  font-weight: 500;
+  /*margin: 0 auto;*/
+}
+
+
+/*About section*/
+
+.about {
+  margin: 2em 0 4em 0;
+}
+
+img {
+  height: 200px;
+  max-width: 100%;
+  /*margin: 2em;*/
+}
+
+.project-col {
+  /*margin-left: 2em;*/
+  /*display: flex;
+  flex-flow: column nowrap;*/
+}
+
+.project {
+  margin: 4em 0;
+}
+
+.m-right {
+  margin-right: 3em;
+}
+
+.m-left {
+  margin-left: 3em;
+}
+
+.hr-project {
+  width: 100%;
+  border: 1px solid #eee;
+}
